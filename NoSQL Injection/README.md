@@ -40,6 +40,8 @@ in JSON
 {"username": {"$ne": "foo"}, "password": {"$ne": "bar"}}
 {"username": {"$gt": undefined}, "password": {"$gt": undefined}}
 {"username": {"$gt":""}, "password": {"$gt":""}}
+{"username":{"$in":["admin","administrator","superadmin"]},"password":{"$ne":""}}
+{"username":{"$regex":"admin.*"},"password":{"$ne":""}}
 ```
 
 ### Extract length information
